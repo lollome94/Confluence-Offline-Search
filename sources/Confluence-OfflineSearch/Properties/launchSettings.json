@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Confluence-OfflineSearch": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Diego\\Desktop\\VXG"
+    }
+  }
+}

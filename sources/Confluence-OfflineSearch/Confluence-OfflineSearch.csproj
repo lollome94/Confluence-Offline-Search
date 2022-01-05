@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Confluence_OfflineSearch</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="files\elasticlunr.min.js" />
+    <None Remove="files\jquery-3.5.1.min.js" />
+    <None Remove="files\offline-search.css" />
+    <None Remove="files\offline-search.js" />
+    <None Remove="files\site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="files\elasticlunr.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\jquery-3.5.1.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\offline-search.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\offline-search.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="files\site.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
